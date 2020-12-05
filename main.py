@@ -57,6 +57,6 @@ def main():
 if __name__ == '__main__':
     t1 = threading.Thread(target=tray)
     t2 = threading.Thread(target=main) 
-    print('i')
+    print('Sounds Activated')
     t1.start()
     t2.start()
